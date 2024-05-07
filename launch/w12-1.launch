@@ -5,7 +5,7 @@
     <node pkg="turtlesim" name="teleop" type="turtle_teleop_key"/>
   </group>
   <!-- 群組2 -->
-  <group ns="student_gropu_turtle_2">
+  <group ns="student_group_turtle_2">
     <node pkg="turtlesim" name="sim" type="turtlesim_node"/>
   </group>
 
@@ -13,6 +13,6 @@
      <!-- 第一隻烏龜 -->
     <remap from="input" to="teacher_group_turtle_1/turtle1"/>
      <!-- 第二隻烏龜 -->
-    <remap from="output" to="student_gropu_turtle_2/turtle1"/>
+    <remap from="output" to="student_group_turtle_2/turtle1"/>
   </node>
 </launch>
